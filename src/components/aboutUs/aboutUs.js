@@ -16,9 +16,9 @@ export default function AboutUs() {
       <p>All of our furry friends are chipped, sterilised and vaccinated upon arrival, and any medical needs are seen to by our local vet. Our dogs are taken on daily walks and have a designated play time and our cats have a residence full of entertainment and big enough for them to get out all their energy. Our animals also eat premium quality food and always have access to fresh water.</p>
       </div>
       <div className='about-images'>
-        <img src={(`../../../images/about-dog1.jpg`)} alt='dog-1'/>
-        <img src={(`../../../images/about-cat.jpg`)} alt='about-cat'/>
-        <img src={(`../../../images/about-dog2.jpg`)} alt='dog-2'/>
+        <img src={(`../../../images/about-dog1.jpg`)} loading='lazy' alt='dog-1'/>
+        <img src={(`../../../images/about-cat.jpg`)} loading='lazy' alt='about-cat'/>
+        <img src={(`../../../images/about-dog2.jpg`)} loading='lazy' alt='dog-2'/>
       </div>
     </div>
   )

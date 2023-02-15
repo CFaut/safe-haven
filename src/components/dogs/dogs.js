@@ -17,7 +17,7 @@ export default function Dogs() {
           dogs.map((dog) => {
             return <Link to={`/dogs/${dog.name}`} id='dog-container' key={dog.id}>
               <h3 className='dog-label' >{dog.name}</h3>
-              <img src={(`../../../images/${dog.image}.jpg`)} alt={dog.name}/>
+              <img src={(`../../../images/${dog.image}.jpg`)} loading='lazy' alt={dog.name}/>
             </Link>
           })
         }

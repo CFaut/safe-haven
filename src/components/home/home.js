@@ -23,13 +23,13 @@ export default function Home() {
         <div className='cat-link'>
           <Link to={'./cats'}>
             <p>Adopt a Cat</p>
-            <img src={'../../../images/cat.jpg.jpg'} alt='adopt-cat'/>
+            <img src={'../../../images/cat.jpg.jpg'} loading='lazy' alt='adopt-cat'/>
           </Link>
         </div>
         <div className='dog-link'>
           <Link to={'./dogs'}>
             <p>Adopt a Dog</p>
-            <img src={'../../../images/dog.jpg.jpg'} alt='adopt-dog'/>
+            <img src={'../../../images/dog.jpg.jpg'} loading='lazy' alt='adopt-dog'/>
           </Link>
         </div>
       </div>

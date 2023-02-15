@@ -16,7 +16,7 @@ export default function Cats() {
           cats?.map((cat) => {
             return <Link to={`/cats/${cat.name}`} id='cat-container' key={cat.id}>
               <h3 className='cat-label'>{cat.name}</h3>
-              <img src={(`../../../images/${cat.image}.jpg`)} alt={cat.name}/>
+              <img src={(`../../../images/${cat.image}.jpg`)} loading='lazy' alt={cat.name}/>
             </Link>
           })
         }
