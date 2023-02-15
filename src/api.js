@@ -1,4 +1,3 @@
-import React from "react";
 
 const url = 'https://catfact.ninja/fact?max_length=140'
 

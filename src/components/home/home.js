@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import './home.css';
 import { Link } from "react-router-dom";
 import { getFacts } from "../../api";
@@ -7,13 +7,6 @@ import { useDispatch } from "react-redux";
 export default function Home() {
   let [fact, setFact] = useState('')
   const dispatch = useDispatch();
-
-    // useEffect(() => {
-    //   getFacts().then(response => {
-    //     dispatch(
-    //       setFact(response)
-    //     ) })
-    // }, [dispatch])
 
   console.log(fact)
   function showFact() {
