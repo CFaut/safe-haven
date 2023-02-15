@@ -1,0 +1,8 @@
+.banner-container {
+  background-image: url('../../../public/images/header.jpg');
+  height: 25em;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

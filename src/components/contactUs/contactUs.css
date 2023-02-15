@@ -1,0 +1,62 @@
+.contact-container {
+  margin: 5em;
+}
+
+.contact-form-container {
+  width: 70%;
+  background-color: lightgray;
+  margin: auto;
+  padding: 3em;
+  border-radius: 15px;
+}
+
+.contact-form-container label {
+  margin-right: 2em;
+  width: 100%;
+}
+
+.contact-form-container input[type=text], .contact-form-container input[type=tel], .contact-form-container input[type=textarea] {
+  width: 60%;
+  padding: 15px;
+  margin: 5px 20px 22px 20px;
+  border: none;
+  background: #f1f1f1;
+}
+
+.message-container {
+  padding: 2em;
+  width: 80%
+}
+
+.submit-btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  margin-bottom:10px;
+  margin-top: 1em;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-container {
+    margin: auto;
+  }
+  
+  .contact-form-container {
+    margin: auto;
+    padding: 3em;
+    border-radius: 0%;
+  }
+
+  .message-container {
+    display: none
+  }
+
+  .submit-btn {
+    padding: 16px 20px;
+    width: 80%;
+  }
+}

@@ -1,0 +1,19 @@
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  text-align: left;
+  background-color: cadetblue;
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+
+.details ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.social-media ul li {
+  text-decoration: none;
+  list-style: none;
+}

@@ -1,0 +1,20 @@
+.about-text {
+  width: 60%;
+  margin: auto;
+  line-height: 2em;
+  padding-bottom: 2em;
+}
+
+h2 {
+  padding-bottom: 1em;
+}
+
+.about-text p {
+  padding-top: 2em;
+}
+
+.about-images img {
+  width: 20em;
+  height: 30em;
+  padding-bottom: 2em;
+}

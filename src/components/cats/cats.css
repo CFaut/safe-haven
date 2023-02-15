@@ -1,0 +1,189 @@
+.cats-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2em 0 2em 0;
+  background-color: rgb(184, 212, 212);
+}
+
+#cat-container {
+  background-color: white;
+  margin: 1em;
+  padding: 1em;
+  border: none;
+  text-decoration: none;
+  color: black;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+#cat-container img {
+  width: 12em;
+  height: 12em;
+}
+
+.cat-label {
+  background-color: lightgray;
+  margin-top: 0em;
+}
+
+.cat-card {
+  background-color: lightgray;
+  width: 50%;
+  margin: auto;
+  padding: 3em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-radius: 15px;
+}
+
+.card-display {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cat-name {
+  font-size: 2em;
+}
+
+.open-btn {
+  background-color: cadetblue;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: static;
+  width: 280px;
+}
+
+.cat-picture {
+  height: 18em;
+  width: 18em;
+  border-radius: 15px;
+}
+
+/* The popup form - hidden by default */
+
+.form-popup-display {
+  display: block;
+  position: static;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  width: 80%;
+  margin: auto;
+  margin-top: 5em;
+}
+
+.form-popup-none {
+  display: none;
+}
+
+/* Add styles to the form container */
+.form-container {
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=tel] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0px 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=tel]:focus {
+  background-color: #ddd;
+  outline: none;
+  
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  margin-top: 1em;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.back-btn {
+  float: left;
+  margin: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: lightpink;
+  text-decoration: none;
+  color: black;
+  padding: 0 1em 0 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .cat-card {
+    width: 50%;
+    margin: auto;
+    padding: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-radius: 15px;
+  }
+
+  .card-display {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cat-picture {
+    height: 12em;
+    width: 12em;
+    border-radius: 15px;
+    margin: auto
+  }
+}
+
+@media only screen and (min-device-width: 601) and (max-device-width: 768px) {
+  .cat-card {
+    width: 80%;
+    margin: auto;
+    padding: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .open-btn {
+    margin-left: 1em;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .cat-card {
+    width: 80%;
+    margin: auto;
+    padding: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  .open-btn {
+    margin-left: 1em;
+    width: 100%;
+  }
+}

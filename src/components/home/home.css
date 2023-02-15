@@ -1,0 +1,96 @@
+.home-container {
+  width: 80%;
+  margin: auto;
+  padding-top: 3em;
+}
+
+.home-container h2 {
+  background-color: white;
+}
+
+.pet-card {
+  margin-top: 3em;
+  display:flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.cat-link {
+  margin-bottom: 5em;
+  background-color: lightgray;
+  width: 30em;
+  padding: 1em;
+  padding-bottom: 3em;
+  margin: 1em;
+  border-radius: 15px;
+}
+
+.cat-link img {
+  width: 20em;
+  height: 30em;
+}
+
+.cat-link p {
+  color: black;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.dog-link {
+  /* float: right; */
+  background-color: lightgray;
+  width: 30em;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 15px;
+}
+
+.dog-link img {
+  width: 20em;
+  height: 30em;
+}
+
+.dog-link p {
+  color:black;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .pet-card {
+    flex-direction: column;
+  }
+
+  .cat-link {
+    width: 90%;
+    margin: auto
+  }
+
+  .cat-link img {
+    width: 10em;
+    height: 15em
+  }
+
+  .dog-link {
+    width: 90%;
+    margin: auto;
+    margin-top: 1em;
+  }
+
+  .dog-link img {
+    width: 10em;
+    height: 15em
+  }
+}
+
+.fact-btn {
+  padding: 1em;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
