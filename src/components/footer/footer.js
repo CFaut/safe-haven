@@ -3,7 +3,7 @@ import './footer.css'
 
 export default function Footer() {
   return(
-    <div className='footer-container'>
+    <section className='footer-container'>
       <div className='details'>
         <ul>
           <li><i className="fa fa-solid fa-phone"></i> 087 658 2783</li>
@@ -18,6 +18,6 @@ export default function Footer() {
           <li><i className="fa fa-brands fa-twitter"></i> Twitter</li>
         </ul>
       </div>
-    </div>
+    </section>
   )
 }

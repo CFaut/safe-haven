@@ -20,7 +20,7 @@ export default function IndividualDog(props) {
   }
 
   return(
-    <div className='dog-card'>
+    <section className='dog-card'>
       <div className='card-display'>
         <img className='dog-picture' src={`../../../images/${dog.image}.jpg`} alt={dog.name}/>
       <div>
@@ -55,7 +55,7 @@ export default function IndividualDog(props) {
         </form>
       </div>
       <Link to={'/dogs'} className="back-btn" >Go Back </Link>
-    </div>
+    </section>
   )
 
 

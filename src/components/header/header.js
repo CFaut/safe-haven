@@ -5,9 +5,9 @@ import './header.css'
 
 export default function Header() {
   return(
-    <div className='header'>
+    <section className='header'>
       <Banner/>
       <Navigation/>
-    </div>
+    </section>
   )
 }

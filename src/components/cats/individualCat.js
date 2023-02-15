@@ -21,7 +21,7 @@ export default function IndividualCat(props) {
 
   console.log(cat)
   return(
-    <div className='cat-card'>
+    <section className='cat-card'>
       <div className='card-display'>
         <img className='cat-picture' src={`../../../images/${cat.image}.jpg`} alt={cat.name}/>
         <div>
@@ -56,6 +56,6 @@ export default function IndividualCat(props) {
         </form>
       </div>
       <Link to={'/cats'} className="back-btn" >Go Back </Link>
-    </div>
+    </section>
   )
 }

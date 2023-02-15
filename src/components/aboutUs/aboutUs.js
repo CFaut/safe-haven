@@ -3,7 +3,7 @@ import './aboutUs.css';
 
 export default function AboutUs() {
   return(
-    <div className='about-section'>
+    <section className='about-section'>
       <h2>About Us</h2>
       <div className='about-text'>
       <p>We are an organisation that is passionate about finding animals their forever homes.
@@ -20,6 +20,6 @@ export default function AboutUs() {
         <img src={(`../../../images/about-cat.jpg`)} loading='lazy' alt='about-cat'/>
         <img src={(`../../../images/about-dog2.jpg`)} loading='lazy' alt='dog-2'/>
       </div>
-    </div>
+    </section>
   )
 }

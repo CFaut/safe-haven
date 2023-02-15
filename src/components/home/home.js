@@ -17,26 +17,20 @@ export default function Home() {
   }
 
   return(
-    <div className='home-container'>
+    <section className='home-container'>
       <h2>We are passionate about helping animals find their forever homes</h2>
       <div className='pet-card'>
-        <div className='cat-link'>
-          <Link to={'./cats'}>
+          <Link to={'./cats'} className='cat-link'>
             <p>Adopt a Cat</p>
             <img src={'../../../images/home/cat.jpg'} loading='lazy' alt='adopt-cat'/>
           </Link>
-        </div>
-        <div className='dog-link'>
-          <Link to={'./dogs'}>
+          <Link to={'./dogs'} className='dog-link'>
             <p>Adopt a Dog</p>
             <img src={'../../../images/home/dog.jpg'} loading='lazy' alt='adopt-dog'/>
           </Link>
-        </div>
       </div>
-      <div>
-        <button className='fact-btn' onClick={showFact}>Click for a random cat fact!</button>
-        <p id='fact'>{fact}</p> 
-      </div>
-    </div>
+      <button className='fact-btn' onClick={showFact}>Click for a random cat fact!</button>
+      <p id='fact'>{fact}</p> 
+    </section>
   )
 }
