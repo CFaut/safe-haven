@@ -64,31 +64,31 @@
   }
 
   .cat-link {
-    width: 90%;
+    width: 80%;
     margin: auto
   }
 
   .cat-link img {
-    width: 10em;
-    height: 15em
+    width: 8em;
+    height: 13em
   }
 
   .dog-link {
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-top: 1em;
   }
 
   .dog-link img {
-    width: 10em;
-    height: 15em
+    width: 8em;
+    height: 13em
   }
 }
 
 .fact-btn {
   padding: 1em;
   background-color: cadetblue;
-  color: white;
+  color: black;
   border: none;
   border-radius: 10px;
   font-size: 1em;
