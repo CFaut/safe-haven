@@ -27,7 +27,7 @@
 
 .cat-link img {
   width: 20em;
-  height: 30em;
+  aspect-ratio: 0.68;
 }
 
 .cat-link p {
@@ -48,7 +48,7 @@
 
 .dog-link img {
   width: 20em;
-  height: 30em;
+  aspect-ratio: 0.68;
 }
 
 .dog-link p {
